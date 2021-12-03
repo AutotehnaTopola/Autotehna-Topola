@@ -1,132 +1,180 @@
 <!DOCTYPE html>
-<html lang="sr">
+<html lang="sr-Latn-rs">
+
 <head>
+    <!-- meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width">
     <meta name="description" content="Preduzece za trgovinu na veliko i malo i opravku i odrzavanje vozila «Autotehna» Topola, ul. Solunskih ratnika 11, posluje dugi niz godina.">
     <meta name="keywords" content="Autotehna Topola, Autotehna, Topola, Tehnički pregled vozila, Zakažite tehnički pregled, Pregled vozila">
-    
-    <link rel="stylesheet" href="style/style.css">
+    <!-- css files -->
+    <link rel="stylesheet" href="style/css/home.css">
     <link rel="stylesheet" href="style/css/glide.core.min.css">
     <link rel="stylesheet" href="style/css/glide.theme.min.css">
     <!-- animations -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 
 
-    <link rel="icon" href="style/images/favicon.png" sizes="16x16" type="image/png">
+    <!-- favicon -->
+    <link rel="icon" href="style/images/favicon.png" sizes="32x32" type="image/png">
+
+     <!-- title -->
     <title>Autotehna Topola | Naslovna</title>
 </head>
+
 <body>
     <div class="wrapper">
-    <header>
-        <a href="#" ><img src="style/images/logo.png" alt="logoimg"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Naslovna</a></li>
+        <!-- header -->
+        
+        <header class="header">
+            
+                <div class="header_container">
+                <div class="header_logo"></div>    
+                <div class="header_menu">
+
+                <div class="menu_icon"><span></span></div>
                
-                <li><a href="pages/zakazi-pregled.html">Zakaži</a></li>
-                <li><a href="pages/objave.html">Objave</a></li>
-                <li><a href="pages/o-nama.html">O nama</a></li> 
-                <li><a href="pages/kontakt.html">Kontakt</a></li> 
-                
-            </ul>
-            <div class="weathericon">
-                <ul class="imgWeather"></ul>
-                <label class="cityName"></label>
-                <label class="tempCity"></label>
-            </div>
-        </nav>
-      
+                <nav class="menu_body">
+                    
+                    <ul class="menu_list">
+                        <li><a href="index.html" class="menu_link">Naslovna</a></li>
+                        <li><a href="pages/objave.html" class="menu_link">Objave</a>
+                           
+                            <span class="menu_arrow"></span>
+                            
+                            <ul class="menu_sub-list">
+                                <li>
+                                    <a href="#" class="menu_sub-link">Arhiva</a>
+                                </li>
+                            </ul>
+                        
+                        </li>
+                        <li><a href="pages/o-nama.html" class="menu_link">O nama</a></li>
+                        <li><a href="pages/kontakt.html" class="menu_button">Kontakt</a></li>
+
+                    </ul>
+                    <div class="weather_icon">
+                        <ul class="imgWeather"></ul>
+                        <label class="cityName"></label>
+                        <label class="tempCity"></label>
+                    </div>
+                </nav>
+                </div>
+                </div>
             
-        
-    </header>
-    <!-- end header -->
 
-    <div class="main">
-        <h1 class="animate__animated animate__fadeInUp">Autotehna Topola</h1>
-        <h2 class="animate__animated animate__fadeInUp">Tehnički pregled vozila</h2>
-        <h2 id="btn" class="animate__animated animate__fadeInUp"><a href="pages/zakazi-pregled.html">ZAKAŽITE TEHNIČKI PREGLED</a></h2>
-        
-        
-    </div>
 
-    <div class="tehnickipregled">
-        <div class="class1">
+        </header>
+        <!-- end header -->
+
+        <main class="main">
+           
+            <div class="page_image">
+            <h1 class="animate__animated animate__fadeInUp">Autotehna Topola</h1>
+            <h2 class="animate__animated animate__fadeInUp">Tehnički pregled vozila</h2>
+            <a href="pages/zakazi-pregled.html"><h2 class="animate__animated animate__fadeInUp">ZAKAŽITE TEHNIČKI PREGLED</h2></a>
+            </div>      
+
+            <div class="container">
+            <div class="three_blocks">
+           
+            <div class="block">
+                <div class="image_block">
+                <img src="style/images/01.jpg" alt="radnik1">
+                </div>
+                <div class="text">
+                    <div class="text_label"><h3>Sve što treba da znate o tehničkom pregledu vozila</h3></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non dui dolor. Cras consequat, nisi
+                        eu luctus sollicitudin, leo magna consectetur orci, non rutrum elit mi ac neque. Duis viverra
+                        nulla dui, id semper mauris iaculis eu. Vivamus varius vestibulum libero et molestie. Nunc
+                        ultricies interdum diam, id dictum lectus tincidunt ultricies. Fusce at est ut sapien hendrerit
+                        laoreet. Aliquam facilisis erat non lorem placerat, non aliquam ligula faucibus.</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="image_block">
+                <img src="style/images/02.jpg" alt="radnik2">
+                </div>
+                <div class="text">
+                    <div class="text_label"><h3>Šta sve čini tehnički pregled vozila?</h3></div>
+                    <p>In a odio ultricies, porta odio eu, cursus sapien. Aenean purus leo, laoreet in tempor et,
+                        lobortis et quam. Mauris fermentum arcu ac quam viverra laoreet. Ut placerat hendrerit suscipit.
+                        Donec accumsan tortor eget nulla sodales, non pharetra metus hendrerit. Nam augue erat, semper
+                        ac dui non, condimentum rutrum massa. Ut metus purus, ultricies vel pretium molestie, ultricies
+                        nec turpis. </p>
+                </div>
+
+            </div>
+            <div class="block">
+                <div class="image_block">
+                <img src="style/images/03.jpg" alt="radnik3">
+                </div>  
+                <div class="text">
+                    <div class="text_label"> <h3>Novi zakon – nova pravila</h3></div>
+                    <p>Praesent eu neque ligula. Nam vitae ipsum in dui varius finibus. Sed mollis efficitur arcu, vitae
+                        tincidunt erat fermentum imperdiet. Phasellus et facilisis nibh. Etiam feugiat libero in
+                        eleifend vulputate. Nunc at augue ut nunc placerat mattis. Nulla facilisi. Nam vel eros suscipit
+                        ligula egestas sodales non sit amet purus. In sit amet leo a massa pellentesque euismod. Etiam
+                        ultricies aliquet dolor, nec iaculis dui varius sed. Donec arcu sapien, feugiat in consectetur
+                        et, fermentum ornare lacus. Phasellus vulputate dolor ut erat iaculis fermentum.</p>
+                </div>
+            </div>
             
-            <img src="style/images/01.jpg" alt="radnik1">
-            <div class="text">
-                <h3>Sve što treba da znate o tehničkom pregledu vozila</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non dui dolor. Cras consequat, nisi eu luctus sollicitudin, leo magna consectetur orci, non rutrum elit mi ac neque. Duis viverra nulla dui, id semper mauris iaculis eu. Vivamus varius vestibulum libero et molestie. Nunc ultricies interdum diam, id dictum lectus tincidunt ultricies. Fusce at est ut sapien hendrerit laoreet. Aliquam facilisis erat non lorem placerat, non aliquam ligula faucibus.</p>
+            </div>
+        <div class="album">
+            <div class="circle"></div>
+            <h4>Album</h4>
+        </div>
+        <div class="slider">
+           
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide"><div class="img0"></div></li>
+                        <li class="glide__slide"><div class="img1"></div></li>
+                        <li class="glide__slide"><div class="img2"></div></li>
+                        <li class="glide__slide"><div class="img3"></div></li>
+                        <li class="glide__slide"><div class="img4"></div></li>
+                        <li class="glide__slide"><div class="img5"></div></li>
+                        <li class="glide__slide"><div class="img6"></div></li>
+                        <li class="glide__slide"><div class="img7"></div></li>
+                        <li class="glide__slide"><div class="img8"></div></li>
+                        <li class="glide__slide"><div class="img9"></div></li>
+                    </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">&lt;</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">&gt;</button>
+                </div>
             </div>
         </div>
-        <div class="class1">
-  
-            <img src="style/images/02.jpg" alt="radnik2">
-            <div class="text">
-                <h3>Šta sve čini tehnički pregled vozila?</h3>
-                <p>In a odio ultricies, porta odio eu, cursus sapien. Aenean purus leo, laoreet in tempor et, lobortis et quam. Mauris fermentum arcu ac quam viverra laoreet. Ut placerat hendrerit suscipit. Donec accumsan tortor eget nulla sodales, non pharetra metus hendrerit. Nam augue erat, semper ac dui non, condimentum rutrum massa. Ut metus purus, ultricies vel pretium molestie, ultricies nec turpis.  </p>
-            </div>
+        </div>
+        </main>
+        
+        <!-- footer -->
 
-        </div>
-        <div class="class1">
-  
-            <img src="style/images/03.jpg" alt="radnik3">
-            <div class="text">
-                <h3>Novi zakon – nova pravila</h3>
-                <p>Praesent eu neque ligula. Nam vitae ipsum in dui varius finibus. Sed mollis efficitur arcu, vitae tincidunt erat fermentum imperdiet. Phasellus et facilisis nibh. Etiam feugiat libero in eleifend vulputate. Nunc at augue ut nunc placerat mattis. Nulla facilisi. Nam vel eros suscipit ligula egestas sodales non sit amet purus. In sit amet leo a massa pellentesque euismod. Etiam ultricies aliquet dolor, nec iaculis dui varius sed. Donec arcu sapien, feugiat in consectetur et, fermentum ornare lacus. Phasellus vulputate dolor ut erat iaculis fermentum.</p>
-            </div>
-        </div>
+        <footer>
+            <p>Copyright &copy; Autotehnatopola 2020. Sva prava zadržana.</p>
+        </footer>
     </div>
-
-   
-    <div class="slider">
-        <h4>Album</h4>
-        <div class="glide">
-            <div class="glide__track" data-glide-el="track">
-              <ul class="glide__slides">
-                <li class="glide__slide"><img src="style/images/sliders/radnik-i-auto.jpg" alt="car mechanic"></li>
-                <li class="glide__slide"><img src="style/images/sliders/radnik-i-auto2.jpg" alt="car mechanic cleans cars"></li>
-                <li class="glide__slide"><img src="style/images/sliders/radnik-i-auto3.jpg" alt="car mechanic cleans cars2"></li>
-                <li class="glide__slide"><img src="style/images/sliders/radnik-i-auto4.jpg" alt="car mechanic2"></li>
-                <li class="glide__slide"><img src="style/images/sliders/2-radnika-i-auto2.jpg" alt="car mechanic3"></li>
-                <li class="glide__slide"><img src="style/images/sliders/radnik-i-auto5.jpg" alt="car mechanic repairs car"></li>
-                <li class="glide__slide"><img src="style/images/sliders/radnik-i-auto6.jpg" alt="car mechanic repairs car2"></li>
-                <li class="glide__slide"><img src="style/images/sliders/radnik-u-radionici.jpg" alt="car mechanic4"></li>
-                <li class="glide__slide"><img src="style/images/sliders/radnik-guma.jpg" alt="car and two men"></li>
-                <li class="glide__slide"><img src="style/images/sliders/dva-radnika-i-auto.jpg" alt="car mechanic5"></li>
-              </ul>
-            </div>
-            <div class="glide__arrows" data-glide-el="controls">
-                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">&lt;</button>
-                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">&gt;</button>
-              </div>
-          </div>
-    </div>
-    <!-- footer -->
-    <footer>
-        <p>Copyright &copy; Autotehnatopola 2020. Sva prava zadržana.</p>
-    </footer>
-    </div>
+    <!-- SCRIPTS -->
+    <script src="javascript/script.js"></script>
+    <!-- GLIDES -->
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script src="js/weather.js"></script>
+    <!-- <script src="js/weather.js"></script> -->
     <script>
-        const options={
-            type:"carousel",
+        const options = {
+            type: "carousel",
             perView: 3,
 
             breakpoints: {
                 1020: {
-                perView: 2
+                    perView: 2
                 },
-                600: {
-                perView: 1
+                700: {
+                    perView: 1
                 }
             }
         }
