@@ -1,10 +1,4 @@
-@font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-    font-display: swap;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 *,*::after,*::before{
     box-sizing: border-box;
     margin: 0;
@@ -22,8 +16,8 @@ img{
 }
 
 html,body{
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;     
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;     
     height: 100%;
     min-width: 300px;
     background-image: url("../images/background.png");
