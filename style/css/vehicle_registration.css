@@ -1,6 +1,6 @@
 @import url(../style.css);
 .text{
-    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
  }
 .menu_list li:nth-child(3) a{
     text-decoration: underline;
