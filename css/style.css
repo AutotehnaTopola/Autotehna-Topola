@@ -83,7 +83,6 @@ html,body{
 .menu_link{
     transition: all 0.5s ease 0s;
     color:#0076A3;
-    
     font-size: calc(9px + 11*(100vw / 1700));
 } 
 
@@ -97,12 +96,10 @@ html,body{
 .menu_sub-list{
     position: absolute;
     top: 100%;
-   
     right: 0;
     background-color: #ebf1f3;
     padding: 15px;
-    min-width: 150px;
-  
+    min-width: 200px;
     border-radius: 100px;
     border-top-right-radius: 0;
     
@@ -114,17 +111,12 @@ html,body{
 
 .menu_sub-list li{
     margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
 }
 .menu_sub-list li:last-child{
     margin: 0;
 }
 .menu_sub-link{
     color: #005c81;
-    
     transition:all 0.5s ease 0s;
     font-size: calc(9px + 11*(100vw / 1700));
 }
