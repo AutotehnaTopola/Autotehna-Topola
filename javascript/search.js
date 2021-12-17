@@ -1,5 +1,5 @@
 let links=document.querySelectorAll(".file_link");
-document.getElementById("search").oninput = function(){
+document.getElementById("search_f").oninput = function(){
     
     let s = this.value.trim();
     s=s.toLowerCase();
