@@ -1,0 +1,151 @@
+@import url("style.css");
+
+.text_block{
+    width: 1200px;
+    min-width: 270;
+}
+@media(max-width: 1235px){
+    .text_block{
+        width: 900px;
+    }
+}
+@media(max-width: 935px){
+    .search_block{
+        max-height: 40px;
+    }
+    .text_block{
+        width: 700px;
+    }
+}
+@media(max-width: 735px){
+    .search_block{
+        max-width:400px;
+    }
+    
+    .text_block{
+        width: 500px;
+    }
+}
+@media(max-width: 520px){
+    .search_block{
+        max-width:350px;
+    }
+    .text_block{
+        width: 400px;
+    }
+}
+@media(max-width: 430px){
+    .search_block{
+        max-width:300px;
+    }
+    
+    .text_block{
+        width: 350px;
+    }
+}
+@media(max-width: 382px){
+
+    .text_block{
+        width: 350px;
+    }
+}
+@media(max-width: 361px){
+    .search_block{
+        max-width:250px;
+    }
+    .text_block{
+        width: 270px;
+    }
+}
+.search_block{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    width: 500px;
+    padding: 5px;
+    height: 50px;
+    border: 2px solid #006188;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    outline: none;
+    margin-left: 5px;
+    width: 100%;
+    height: 100%;
+    font-size: calc(20px + 5*(100vw / 1700));
+}
+
+#button{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+
+.text_block-text a:link{
+    color:#1b6886;
+}
+.text_block-text a:visited{
+    color:#008b4a;
+}
+.text_block-text a:visited:hover{
+    color:#00d370;
+}
+.text_block-text a:hover{
+    color:#08a4e2;
+}
+
+.label_text{
+    margin-bottom: 50px;
+}
+
+.news_block{
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.file_block{
+    padding: 10px;
+}
+.file_block a:before {
+    content:"• ";
+    display:inline-block;
+    margin: 0px 10px 0px 0px;
+}
+.file_block a{
+    text-decoration: underline;
+    margin: 10px 0px;
+    display: inline-block;
+    font-size: calc(16px + 5*(100vw / 1700));
+}
+
+.data_block{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #049bcd;
+}
+.data_block p{
+    font-size: calc(17px + 5*(100vw / 1700));
+    color:#ffffff;
+    opacity: 0.877;
+}
+.data_block span{
+    color:#ffffff;
+    opacity: 0.6;
+}
+.file_link.hide{
+    display: none;
+}
+.file_block.hide{
+    display: none;
+}
+.file_block.hide_d{
+    display: none;
+}
