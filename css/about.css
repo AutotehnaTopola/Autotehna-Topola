@@ -1,8 +1,0 @@
-@import url("style.css");
-.text{
-   font-weight: normal;
-}
-.menu_list li:nth-child(5) a{
-    text-decoration: underline;
-}
-
